@@ -44,5 +44,28 @@ let booleanIsLoggedIN = Boolean(isLoggedIN);
 
 let number = 33;
 let stringNumber = String(number);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+//*****************************Operations*****************************
+
+let value = 3;
+let negValue = -value;
+console.log(negValue);
+
+let str1 = "Munish";
+let str2 = " Bali";
+let str3 = str1 + str2;
+console.log(str3);
+
+
+//console.log(1 + "2");   12
+//console.log("2"+ 1); 21
+//console.log(1+1+"2");  22
+//console.log("1" +1+2); 112
+//It converts value depending upon the priority, check tc39 :To primitive to learn this.
+
+// console.log(+true);  1
+// console.log(true+);   error
+// console.log(true);  true
